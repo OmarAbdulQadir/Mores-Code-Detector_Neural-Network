@@ -1,5 +1,9 @@
 # Full MCU Implementation & Env Setup
 
+![STM32F401 hardware: an ARM Cortex-M4 microcontroller at 84 MHz with a single push-button acting as a Morse key, output over UART](MCU.png)
+
+*The target hardware: an STM32F401 (ARM Cortex-M4F @ 84 MHz) with a single push-button as the Morse key. The chip samples the button at 20 Hz, runs inference on-chip, and prints decoded characters live over UART — all within ~37 KB Flash and ~11.8 KB RAM.*
+
 ## 1. Environment Installation
 1. **STM32CubeIDE:** Primary C/C++ development environment.
 2. **X-CUBE-AI:** Install via `Help -> Manage Software Packs`. This tool converts the `.tflite` model into optimized C code (`network.c/.h`, `network_data*.c/.h`).

@@ -1,5 +1,9 @@
 # Comprehensive AI Model Documentation
 
+![1D-CNN architecture: a 100-sample button-state window flows through Conv1D, pooling and dense layers into a 28-class softmax, decoded by argmax into a letter](Model.png)
+
+*Model overview: a 5-second window of 100 button-state samples (20 Hz) flows through stacked 1D convolution, pooling and dense layers, ending in a 28-class softmax (A–Z + SPACE). An argmax selects the decoded character. The whole network is quantized to INT8 (~4.9 KB of weights).*
+
 ## 1. Theoretical Architecture Rationale
 The model is a specialized **1D Convolutional Neural Network (CNN)**. In the context of TinyML for the STM32F401, this architecture was chosen for its deterministic memory footprint and efficient execution.
 
