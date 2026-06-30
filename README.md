@@ -4,7 +4,7 @@ This project implements an on-device Morse Code decoder using a 1D Convolutional
 
 ## 📚 Documentation Roadmap
 For a deeper dive into specific aspects of this project, refer to:
-- **[Model.md](https://github.com/OmarAbdulQadir/Mores-Code-Detector_Neural-Network/blob/e723bf6b5fbaf9a3b29a6f3f5f23c35e6d87b1ed/Model-Docs/Model.md)**: Technical breakdown of the 1D-CNN architecture, training graphs, and rationale.
+- **[Model.md](Model-Docs/Model.md)**: Technical breakdown of the 1D-CNN architecture, training graphs, and rationale.
 - **[tinyML.md](https://github.com/OmarAbdulQadir/Mores-Code-Detector_Neural-Network/blob/e723bf6b5fbaf9a3b29a6f3f5f23c35e6d87b1ed/Model-Docs/tinyML.md)**: Full MCU environment setup and detailed C firmware implementation logic.
 
 ## 1. Project Specifications
